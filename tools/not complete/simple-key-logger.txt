@@ -1,0 +1,8 @@
+$ git clone (simple-key-logger url )
+$ chmod +700 simple-key-logger/
+enter the folder
+$ make
+$ sudo ./skeylogger
+
+to show the data
+$ vi /var/log/skeylogger.log

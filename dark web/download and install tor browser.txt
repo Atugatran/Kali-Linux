@@ -1,0 +1,53 @@
+download the tor browser and install by firefox
+
+install 
+
+unzip the file
+open the (tor-browser_en-US) file
+open the (browser) file
+open the (start-tor-browser) file
+in file
+
+if [ "`id -u`" -eq 0 ]; then {replace to } 
+if [ "`id -u`" -eq 1 ]; then 
+
+open the tor browser
+
+
+############################################################
+
+download the tor browser and install by terminal
+
+Install Instructions
+Open the terminal then run the following commands:
+
+$ sudo systemctl enable tor.service
+$ sudo systemctl start/stop/status tor.service
+kali@kali:~$ sudo apt update
+kali@kali:~$ apt install proxychains tor -y
+kali@kali:~$ sudo apt install -y tor torbrowser-launcher
+kali@kali:~$
+As user run the following command:
+
+kali@kali:~$ torbrowser-launcher
+First time it will download and install Tor Browser including the signature verification.
+
+Next time it will be used to update and launch Tor Browser.
+
+#######################################################################################
+
+command to tor network of command
+
+torsocks (command) 
+#the command show the the result by tor network by anonymous for one command
+
+the command only this termux by tor network 
+Source torsocks on/off
+#the command show the the result by tor network by anonymous for these shell
+
+the firfox to connect the tor browser
+
+@Firefox tor network
+preference>Proxy 
+Ip 127.0.0.1
+Port 9050

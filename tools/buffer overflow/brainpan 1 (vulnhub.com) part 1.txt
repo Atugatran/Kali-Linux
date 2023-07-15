@@ -1,0 +1,11 @@
+@ open firefox
+* vitual machine
+* search brainpan 1
+* download brainpan 1 by mirror link
+* brainpan 1 and kali linux are both nat network
+
+@ open terminul
+$ nmap -sn (yourip)/24
+$ nmap -sV (victim ip)
+
+

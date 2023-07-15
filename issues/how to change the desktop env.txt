@@ -1,0 +1,20 @@
+$ sudo apt update && sudo apt install -y kali-desktop-xfce
+# install the xfse env 
+
+$ update-alternatives --config x-session-manager
+# choose the anyone
+
+$ apt purge --autoremove kali-desktop-gnome
+# pernament remove the gnome env
+
+$ sudo apt update && sudo apt install -y kali-desktop-gnome
+# install the gnome env
+
+$ sudo apt install -y kali-desktop-kde
+# install the kde env
+
+$ sudo apt purge --autoremove kali-desktop-xfce
+# pernament remove the xfce env
+
+$ rm -r .cache .config .local
+# remove the .conf file of xfce env

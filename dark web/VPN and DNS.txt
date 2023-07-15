@@ -1,0 +1,15 @@
+VPN AND DNS ---------------
+$ cat /etc/resolv.conf
+# its show the server name in ip
+$ nano /etc/dhcp/dhclient.conf
+# open file and search
+Prepend-domain-name-server
+And remove # in line
+app a ip (https://umbrella.cisco.com/?utm_medium=web-referral&utm_source=cisco)
+
+208.67.222.222 , 208.67.220.220
+2620:119:35::35 , 2620:119:53::53
+
+$ service network-manager restart
+$ cat /etc/resolve.conf
+# it’s show show the 2 ips add

@@ -1,0 +1,24 @@
+these tool are used in website 
+
+
+$ wireshark
+# and select the etho/wlan0 to check the $ ifconfig
+
+@ open firefox
+* open testphp.vulnhub.com (webite)
+* view cart>login page
+* all the pkg are capture the wireshark
+
+@ wireshark
+* filters
+ * ip.scr==(eth0 ip)
+ * ip.dst==(eth0 ip)
+
+@ open firefox
+* enter the username and password in testphp.vulnhub.com
+
+@ wireshark
+* filters
+ * tcp_stream eq 1
+* select the http pkg
+ * right click>follow>tcp stram

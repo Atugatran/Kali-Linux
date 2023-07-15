@@ -1,0 +1,40 @@
+#! /bin/bash
+
+#taking input & output from user ---
+echo "Enter the first number"
+read a
+#read=34
+#echo $a
+
+echo "Enter the secound number"
+read b
+#echo $b
+
+# selecting operation ---
+echo "Please select an operation" 
+echo "1. additon"
+echo "2. subtraction"
+echo "3. multipicatin"
+ccho "4. divide"
+read opeartion
+
+
+# Initializing operation
+c=$(( $a + $b )) 
+d=$(( $a - $b )) 
+e=$(( $a * $b )) 
+f=$(( $a / $b )) 
+
+#switch case statement for initializing operation
+case $operation in
+1)result="$a + $b = $c"
+;;
+2)result="echo $a - $b = $d"
+;;
+3)result="echo $a * $b = $e"
+;;
+4)result="echo $a / $b = $f"
+# result="echo'scale=2; $a / $b = $f'"
+;;
+esac 
+echo "your answer is : $result"

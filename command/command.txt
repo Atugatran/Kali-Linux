@@ -1,0 +1,14 @@
+@ add a permission sudo of a nomal user
+$ sudo usermod -a -G sudo <user name>
+
+
+@ htop
+$ htop
+# show the process of computer
+
+@ rkhunter
+$ rkhunter --check
+# check the files in linux
+
+@ add a application box
+$ plank

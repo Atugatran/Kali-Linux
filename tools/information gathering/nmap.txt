@@ -1,0 +1,56 @@
+192.0.0.1
+192.0.0.2
+192.0.0.254
+these ips are default by vmware
+
+ports 
+1 - 65535
+
+Scanning -------------------------------------
+$ nmap -sn 192.0.0.1/24
+# show the all hosts of ip
+
+$ nmap -sn -v/-vvv...** 192.0.0.1/24
+# show the all hosts and verbose of ip
+
+$ nmap -sV 192.0.0.1
+# show the all hosts Service Version Detection of ip
+
+$ nmap -O -v 192.0.0.1
+# show the OS Detection of ip
+
+$ nmap -O 192.0.0.1
+# show the OS Detection of ip
+
+$ nmap -A 192.0.0.1
+# show the  Aggressive Scan of ip
+
+$ nmap -T1,2,3,4,5 192.0.0.1
+# T5 is very fast and lot of traffic  
+# T5 Insane.  Very fast, less accurate results
+# T4 is fast  
+# T4 Aggressive.  Fast, assumes fast network
+# T3 is default
+# T3 Default.  If using, just leave off.
+# T2 Polite. Use if machines or network slow
+# T1 Sneaky. IDS evasion, slow  
+# T0 Paranoid.  IDS evasion, very slow.
+
+$ nmap -sc 192.0.0.1 
+and press v to verbose increas 3
+# show the script of ip
+
+$ nmap -p 23 192.0.0.1
+# show the port of ip
+
+$ nmap 192.0.0.1/24 -oA (file name)
+# the output to file in tree format
+
+
+1. sudo apt-get install nmap
+2. nmap -sP 192.168.106.182 (Ping Scan)
+3. nmap -sS -A 192.168.106.182 (Port Scan) (steath scan)
+4. nmap www.irctc.co.in (vulnerability or port detection)
+5. nmap -p 1-10000 -sV -sS -T4 www.irctc.co.in
+
+

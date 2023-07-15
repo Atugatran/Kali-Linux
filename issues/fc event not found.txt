@@ -1,0 +1,5 @@
+ rm .zsh_history
+
+or
+ 
+ cat /dev/null > .zsh_history 

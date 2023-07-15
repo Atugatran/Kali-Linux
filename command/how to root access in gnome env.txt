@@ -1,0 +1,6 @@
+$ passwd root
+# change the password
+
+$ sudo nano /etc/pam.d/gdm-password
+# open the file
+# and comment the 3 line

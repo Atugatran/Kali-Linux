@@ -1,0 +1,3 @@
+this tool is used of website to ip
+
+$nikto -h <website name>

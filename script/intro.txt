@@ -1,0 +1,16 @@
+$ vim (script name).sh
+
+#!/bin/bash            <footer of script>
+
+write a script 
+
+run the script
+# sh (E script name>.sh
+# bash (E script name>.sh 
+# ./(E script name>.sh
+
+
+
+* basics  ----
+xdg-open (website url)           open the website 
+

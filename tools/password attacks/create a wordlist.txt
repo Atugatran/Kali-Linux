@@ -1,0 +1,25 @@
+there are two types of methodes is
+
+1 methode is
+
+w = location and nmae of file to save a file
+d = depth of link of website by default is 2
+m = minimun length of word
+u = unique
+$ cewl -w /desktop/wordlist.txt -d 0 -m 6 (paste the url)
+
+$ sort -u (Eword file.txt > (word file.txt)
+
+2 methode is 
+
+3      = minimim length of word
+6      = maximum length of word 
+a to l = words in wordlist
+o      = output 
+@      = lower char
+%      = numbers
+,      = upper char
+^      = symbols
+
+$ crunch 3 6 asdfghjkl -o file.txt
+$ crunch 4 4 asdfgh1234 @b%% -o file.txt

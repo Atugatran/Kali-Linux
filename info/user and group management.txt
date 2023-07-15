@@ -1,0 +1,42 @@
+there is four main user administration files -
+
+/etc/passwd  - keeps the user account and passwd information this file holds the
+              majority of information about on the unix system
+
+
+/etc/shadow  - holds the encrypted password of the corresponding account .not all
+              the system support this file.
+
+/etc/group   - this file contains the group information for each account 
+
+/etc/gshadow - this file contains secure group account information
+
+
+
+Users and groups management
+$ grep UID /ete/login.defs
+Show the user id in linux bt default
+
+$ $ grep GID /ete/login.defs
+Show the group id in linux by defaults
+
+
+
+there is three types of accounts on a linux system
+
+ROOT ACCOUNT
+This is also called susperuser and would have complete and unfettersd
+control of the superuser can run any commands without any restriction
+the user should be assunumed as a system administrator.
+
+SERVICE ACCOUNTS
+Service accounts are created by installation packages when they are installed these
+accounts are used in routine work 
+
+USER ACCOUNT 
+user account provide interaction access to the system for users and groups of users
+
+
+linux supports a concepts of group account which logically groups a number of accounts
+every accounts would be a part of another group account a linux group plays important 
+role in handling file permission and process management 

@@ -1,0 +1,41 @@
+install the tools -------------------
+$ apt install proxychains tor -y
+ 
+command of tor -------------------
+$ sudo sysytemctl enable tor.service
+$ sudo systemctl start/stop/status tor.service
+$ service tor start
+$ service tor stop
+$ service tor restate
+$ service tor status
+
+command of proxychain ------------------- 
+locate proxychains.conf
+
+$ nano /etc/proxychains.conf
+# open a file
+Remove # in dynamic_proxy
+Add # random_proxy
+Remove # proxy DNS request – no leake DNS data
+
+
+last
+add a line by (socks5 proxy list) website
+like socks5	192.0.0.1 9050
+
+firefox---------------
+
+proxychains firefox                  run the firefox with anonymous
+tor-resolve (website name)           find the ip with anonymous     
+proxychains nmap -sS -v (website ip)  scan the ip with anonymous
+
+nmap --------------------
+
+$ sudo proxychains nmap Google.com
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+$ uname -a
+
+$ lsb_release -a
+
+$ hostnamectl
+
+$ cat /etc/os-release
+
+$ screenfetch
+
+$ neofetch

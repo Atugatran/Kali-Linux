@@ -1,0 +1,17 @@
+How to protect grub with password 
+Means do not open the BIOS option without password
+Commands 
+$ cat /etc/grub.d/10_linux
+# the file has opened and last to enter
+cat << EOF
+set superusers=(user name)
+password pbkdf2 (user name) paste the generate code here 
+$ grub mkpasswd pbkdf2
+Enter a password and copy the password to grub to end and paste to top
+$  update-grub
+$ grub-mkconfig -o /boot/grub/grub.cfg
+$ init 6 / reboot -d
+
+
+
+

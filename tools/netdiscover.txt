@@ -1,0 +1,13 @@
+$ netdiscover -i eth0 -r 192.0.0.1/24
+-i​ means we have to specify our interface and -r means we have to 
+provide a range of IPs. 
+
+
+
+
+
+
+
+
+
+

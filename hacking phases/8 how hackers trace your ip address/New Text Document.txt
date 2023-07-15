@@ -1,0 +1,16 @@
+1 grabify ip logger <website>
+> paste a url of anyththing
+> click on create url
+> don't close websie 
+> copy a url 
+> send a url
+> the victim open a link
+> refesh the page of website
+  
+> php code in photo
+> $ cd /var/www/html/
+> save here  php code 
+> create a file is log.html
+> its log.html file save the data in log.html
+> open firefox
+> <ip>/php file

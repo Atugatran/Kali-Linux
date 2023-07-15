@@ -1,0 +1,8 @@
+top 5 skills needs in cyber security
+1) buildin & using virtual  machines
+2) command line (powersell,cmd,termux,bash)
+3) system administation 
+4) computer networking (tcp/ip , osi)
+5) personal digital security
+ 
+ 

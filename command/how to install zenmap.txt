@@ -1,0 +1,29 @@
+@ open firefox 
+* search download zenap
+* open nmap.org website
+* open nmap download page
+* find zenmap
+* download zenmap-7.91-1.scr.rpm
+* save it
+
+$ apt install alian
+
+$ alian zenmap-7.91-1.scr.rpm
+# translate rpm to deb pkg
+
+$ chmod +777 zenmap-7.91-1.scr.dep
+
+$ dpkg -i zenmap-7.91-1.scr.dep
+# install the pkg
+
+$ zenmap
+# open zenmap
+
+error of 
+Could not import the zenmapGUI.App module: 'No module named gtk'
+
+download the pkg
+
+1 https://packages.debian.org/buster/all/python-gtk2-dev/download
+2 https://packages.debian.org/buster/amd64/python-cairo/download
+3 https://packages.debian.org/buster/amd64/python-gobject-2/download

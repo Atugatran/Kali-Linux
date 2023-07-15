@@ -1,0 +1,55 @@
+External /public Network
+
+1 Network
+2 Phone
+3 website
+4 whois
+5 source code 
+6 website mirring
+7 archive sites
+8 web server contect
+10 IP blocks
+11 Email Header
+12 Google and search engine
+13 social network 
+14 People sites
+15 JOb sites
+
+
+Internal Network
+
+1 Insternal /private Network
+2 Private Websites
+3 Internal DNS
+4 Dumpster diving 
+5 Shoulder suffing
+6 Eavesdropping
+
+
+Information gathering by website ------------------
+
+1 <website>/sitemap.html
+2 <website>/sitemap.xml
+3 sitemap generater <website>
+4 source code (ctl + u)
+
+Website Mirror by terminor ----------------
+
+$ wget -m <victim website>
+# m = mirrorcd
+
+archive of website by website ------------
+
+archive.org <website>
+# the history of website
+
+whois ------------ 
+
+who.is <website>
+
+
+Information gethering of email by websits
+
+viewdns.info <website>
+reverce Whois Lookup <website>
+whoxy.com <website>

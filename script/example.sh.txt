@@ -1,0 +1,14 @@
+#! /bin/bash
+
+echo you are hacked please enter username and password to bypass attack !
+#shutdown +1
+echo Enter username 
+read username
+clear
+echo Enter password
+read password
+if [[ ($usernamr == "admin" && $password == "pass123" ) ]]; then
+then congration you are logged in!
+else
+figlet "khatam tata bye bye gya" && sleep 5s; shutdown -h now
+fi 

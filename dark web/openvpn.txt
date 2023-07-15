@@ -1,0 +1,7 @@
+
+download the service for (vpnbook) website 
+unzip
+choose a one service
+
+$ openvpn --config (location of service)/(service name)
+username and password in vpnbook website

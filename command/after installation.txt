@@ -1,0 +1,77 @@
+
+@ change the root passwd----------------------
+ 
+techdhee@kali:~$ sudo -i
+[sudo] password for techdhee: 
+root@kali:~# passwd
+New password: 
+Retype new password: 
+passwd: password updated successfully
+root@kali:~# exit
+logout
+techdhee@kali:~$
+
+@ source.list -------------------
+
+techdhee@kali:~$ cat /etc/apt/sources.list
+comment a line
+
+# to add lines 
+
+deb http://http.kali.org/kali kali-rolling main non-free contrib
+deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+
+@ ssh files---------------------------
+
+$ cd /etc/ssh
+$ ls
+$ sudo mkdir old_keys
+$ ls
+$ mv ssh_host_* old_keys/
+$ sudo dpkg-reconfigure openssh-server 
+$ sudo md5sum ssh_host_*
+$ cd old_keys/
+$ sudo md5sum ssh_host_*
+# to check the boths are differents
+$ cd /etc/shh 
+$ rm -rf old_keys 
+
+@ kali linux update-----------
+$ apt update
+$ apt upgrade
+$ apt dist-upgrade
+$ apt full-upgrade
+
+@ INSTALL GIT ------------
+$apt-get install git
+
+@ Configure Bash Aliase-----------
+$ nano ~/.bash_aliases
+$ nano ~/.zsh_aliases
+In file these command ---
+
+alias apt-updater='
+	apt-get update &&
+	apt-get dist-upgrade -Vy &&
+	apt-get autoremove -y &&
+	apt-get autoclean &&
+	apt-get clean &&
+	reboot'
+
+$ apt-updater
+
+@ desable screen lock
+* setting > privacy > screen lock > desable screen lock
+
+@ Install a Terminal Multiplexer -----&&&
+$ apt-get install tilix/terminater
+
+@ Install the Latest Version of Tor ----&&&
+$ echo ‘deb https://deb.torproject.org/torproject.org stretch main
+deb-src https://deb.torproject.org/torproject.org stretch main' > /etc/apt/sources.list.d/tor.list
+$ wget -O- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add –
+$ apt-get update
+$ apt-get install tor deb.torproject.org-keyring 
+
+
+

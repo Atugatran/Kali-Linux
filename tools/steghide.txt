@@ -1,0 +1,7 @@
+# to hide the text in photos 
+1. sudo apt-get install steghide
+2. steghide --embed -ef text.txt -cf pic.png -sf stego.png -e 
+none -p 12345
+3. steghide --info stega.png
+4. steghide --extract -sf stego.png
+5. cat text.txt

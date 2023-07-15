@@ -1,0 +1,13 @@
+restart the kali linux
+
+advanced option for kalI GNU/Linux 
+and press the E buttion
+
+linux line
+
+ro replace rw 
+last
+init=/bin/bash
+enter the f10 , fn+f10
+passwd root
+reboot

@@ -1,0 +1,7 @@
+$ git clone (zphisher url)
+enter the zphisher file
+$ chmod  +700 zphisher.sh
+$ bash zphisher.sh
+
+enter the zphisher 
+

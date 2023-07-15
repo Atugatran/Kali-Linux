@@ -1,0 +1,20 @@
+file permission
+r   = 4
+w   = 2
+x   = 1
+rwx = 7
+s   =4ugo = rws
+t   = type of file
+u   = user
+g   = group
+o   = other
+us  = user
+gr  = group
+d   = directory
+s   = super user
+
+
+= -  rwx rwx  rwx  1  rahul  root  45 agd 16  18:18  echo
+  t   u   g    o       us     gr              time    d
+   
+
